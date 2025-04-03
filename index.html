@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Snoo Jump</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>Snoo Jump</h1>
+        <button id="start-button">Start</button>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <div id="score">Pontszám: 0</div>
+    <div id="game-over">
+        <p>Game Over!</p>
+        <button id="restart-button">Újra</button>
+    </div>
+    <button id="music-toggle">Zene ki/be</button>
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
